@@ -13,3 +13,4 @@ conn.on('data', (data) => {
 })
 return conn;
 }
+module.exports = {connect}

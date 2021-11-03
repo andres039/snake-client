@@ -16,6 +16,7 @@ conn.on('data', (data) => {
 })
 conn.on('connect', () => {
   conn.write('Name: ABG');
+  //setInterval(() => conn.write("Move: up"), 1000);
 });
 return conn;
 }
